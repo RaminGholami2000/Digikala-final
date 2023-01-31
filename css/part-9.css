@@ -1,0 +1,29 @@
+div.part-9{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+div.part-9>div{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+div.part-9>div>div{
+    width: 100%;
+}
+div.part-9>div>div>a{
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+div.part-9>div>div>a>img{
+    width: 100%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}

@@ -1,0 +1,198 @@
+div.part-12{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-radius: 20px;
+    top: 430px;
+    border: 1px solid #E0E0E6;
+}
+div.part-12>div:nth-of-type(1){
+    width: 24%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    border-left: 1px solid  #E0E0E6;
+
+}
+div.part-12>div:nth-of-type(2){
+    width: 24%;
+    height:100%;
+    position: absolute;
+    top: 0px;
+    right: 25%;
+    border-left: 1px solid  #E0E0E6;
+}
+
+div.part-12>:nth-of-type(3){
+    width: 24%;
+    height: 100%;
+position: absolute;
+right: 50%;
+top: 0px;
+border-left: 1px solid  #E0E0E6;
+
+}
+div.part-12>div:nth-of-type(4){
+    width: 24%;
+    height:100%;
+position: absolute;
+right: 75%;
+top: 0px;
+}
+div.part-12>div:nth-of-type(1)>h1{
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: 10px;
+    font-size: 25px;
+line-height: 25px;
+}
+div.part-12>div:nth-of-type(1)>h3{
+    width: 100%;
+    height: 15px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: -10px;
+    font-size: 15px;
+    color: #8c779ed1;
+    line-height: 15px;
+
+}
+
+
+div.part-12>div>div>ul{
+    width: 88%;
+    height: calc(100% - 110px);
+    list-style: none;
+    position: absolute;
+    top: 50px;
+}
+div.part-12>div>div>ul>li{
+    width: 45%;
+    height: 45%;
+    display: inline-block;
+    position: absolute;
+}
+
+div.part-12>div>div>ul>li:nth-of-type(1){
+    top: 19.2px;
+    right: 14.8px;
+    border-left: 1px solid #E0E0E6;
+    border-bottom: 1px solid #E0E0E6;
+}
+div.part-12>div>div>ul>li:nth-of-type(2){
+    top: 195px;
+    right: 14.8px;
+    border-left: 1px  solid #E0E0E6;
+
+}
+div.part-12>div>div>ul>li:nth-of-type(3){
+    top: 19.2px;
+    left: 20px;
+}
+div.part-12>div>div>ul>li:nth-of-type(4){
+    top: 195px;
+   left: 20.3px;
+   border-top: 1px solid #E0E0E6;
+
+}
+div.part-12>div>div>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+div.part-12>div>div>ul>li>a>img{
+    width: 126px;
+    height: 126px;
+    display: inline-block;
+    margin: 35px auto;
+}
+div.part-12>div>a{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    color: aqua;
+}
+div.part-12>div>a>p{
+    width: 100%;
+    height: 100%;
+position: absolute;
+top: -15px;
+font-size: 15px;
+font-family: Iran;
+}
+div.part-12>div>a>p>span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+div.part-12>div:nth-of-type(2)>h1{
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: 10px;
+    font-size: 25px;
+line-height: 25px;
+}
+div.part-12>div:nth-of-type(2)>h3{
+    width: 100%;
+    height: 15px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: -10px;
+    font-size: 15px;
+    color: #8c779ed1;
+    line-height: 15px;
+
+}
+div.part-12>div:nth-of-type(3)>h1{
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: 10px;
+    font-size: 25px;
+line-height: 25px;
+}
+div.part-12>div:nth-of-type(3)>h3{
+    width: 100%;
+    height: 15px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: -10px;
+    font-size: 15px;
+    color: #8c779ed1;
+    line-height: 15px;
+
+}
+div.part-12>div:nth-of-type(4)>h1{
+    width: 100%;
+    height: 25px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: 10px;
+    font-size: 25px;
+line-height: 25px;
+}
+div.part-12>div:nth-of-type(4)>h3{
+    width: 100%;
+    height: 15px;
+    text-align: right;
+    font-family: Iran;
+    margin-top: -10px;
+    font-size: 15px;
+    color: #8c779ed1;
+    line-height: 15px;
+
+}
+

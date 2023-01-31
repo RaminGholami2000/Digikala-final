@@ -1,0 +1,140 @@
+body{
+    min-height: 2000px;
+}
+div.header{
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+div.image>img{
+    width: 100%;
+  position: fixed;
+  top: 0;
+}
+div.header>div.home-loge-search-box-register-cart{
+    width: 100%;
+    height: 70px;
+background-color: white;
+margin-top: -10px;
+position: fixed;
+top: 60px;
+}
+div.header>div.home-loge-search-box-register-cart>div.home-logo{
+    width: 115px;
+    height: 115px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+div.header>div.home-loge-search-box-register-cart>div.search-box{
+    width: 650px;
+    height:50px;
+    border-radius: 10px;
+    background-color: #F1F2F4;
+    display: inline-block;
+    position: fixed;
+    top: 60px;
+    right: 130px;
+}
+div.header>div.home-loge-search-box-register-cart>div.search-box>label>svg{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 24px / 2);
+    right: 10px;
+}
+div.header>div.home-loge-search-box-register-cart>div.search-box>input{
+    width: calc(100% - 40px);
+    height: 48px;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 50px / 2) ;
+    left: 0px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #F1F2F4;
+outline: unset;
+}
+
+div.header>div.home-loge-search-box-register-cart>div.register{
+    width: 134.31px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    border-radius: 5px;
+   border: 1px solid #E0E0E6;
+}
+div.header>div.home-loge-search-box-register-cart>div.register>a{
+    width: 25px;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    font-family: Iran;
+    font-weight: 800;
+}
+div.header>div.home-loge-search-box-register-cart>div.register>a:nth-of-type(1){
+    right: 5px;
+}
+div.header>div.home-loge-search-box-register-cart>div.register>a:nth-of-type(1)>svg{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top:calc(50% - 24px / 2);
+}
+div.header>div.home-loge-search-box-register-cart>div.register>a:nth-of-type(2){
+top: calc(50% - 40px / 2);
+right: 35px;
+line-height: 40px;
+text-align: center;}
+div.header>div.home-loge-search-box-register-cart>div.register>a:nth-of-type(3){
+    width: calc(100% - 74px);
+    top: calc(50% - 40px / 2);
+    right: 75px;
+    line-height: 40px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+text-align: center;
+}
+div.header>div.home-loge-search-box-register-cart>div.register>span.fa-pipe{
+    width: 14px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right:60.5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+div.header>div.home-loge-search-box-register-cart>div.cart{
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top:10px;
+    left: 15px;
+    font-size: 25px;
+}
+div.header>div.home-loge-search-box-register-cart>div.cart>a{
+    color: black;
+}
+div.header>div.home-loge-search-box-register-cart>span.fa-pipe{
+    width: 25px;
+    height:40px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}

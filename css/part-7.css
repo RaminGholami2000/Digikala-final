@@ -1,0 +1,23 @@
+div.part-7{
+    width: 100%;
+    margin-top: -80px;
+    padding: 100px;
+box-sizing: border-box;
+padding-top: 0px;
+}
+div.part-7>div{
+    width: 100%;
+    padding: 20px;
+}
+div.part-7>div>a{
+    width: 25%;
+    margin-right: 5px;
+  
+}
+div.part-7>div>a>img{
+    width: 314px;
+    height: 235.5px;
+    display:inline-block ;
+    background-size: cover;
+    border-radius: 10px;
+}

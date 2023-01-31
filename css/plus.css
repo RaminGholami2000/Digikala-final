@@ -1,0 +1,186 @@
+div.digi-plus{
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top:470px;
+}
+div.digi-plus>div{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    background-color: hsl(310, 69%, 34%);
+    border-radius: 20px;
+position: absolute;
+top: 20px;
+right: 20px;
+padding: 10px;
+box-sizing: border-box;
+
+}
+div.digi-plus>div>div{
+    width: 30%;
+    height: calc(100% - 20px);
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    border-radius: 15px;
+    background-color: white
+}
+div.digi-plus>div>div:nth-of-type(2){
+    left: calc(30% + 10px);
+
+}
+div.digi-plus>div>div:nth-of-type(3){
+    width: calc(100% - 65%);
+    right:20px;
+    background-color: #941B80
+
+}
+div.digi-plus>div>div>p{
+    width: 60%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+div.digi-plus>div>div>p>span{
+    width: calc(100% - 30px);
+    height:24px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 20px;
+    font-family: Iran;
+}
+div.digi-plus>div>div>p>svg{
+    width: 24px;
+    height: 24px;
+    fill: #941B80;
+    display: inline-block;
+}
+div.digi-plus>div>div>p:nth-of-type(2){
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 5px;
+    right:280px;
+    font-size: 15px;
+    font-family: Iran;
+    color: #941B80;
+
+}
+div.digi-plus>div>div>p:nth-of-type(2)>span{
+    width: 24px;
+    height: 100%;
+    margin-left: 45px;
+    font-size: 15px;
+    line-height: 30px;
+}
+div.digi-plus>div>div>div{
+    width: 100%;
+    height: calc(100% - 60px);
+    position: absolute;
+    bottom:0px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+div.digi-plus>div>div>div>ul{
+    width: 91%;
+    height: 100%;
+    position: absolute;
+    top: -16px;
+    border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+list-style: none;
+}
+div.digi-plus>div>div>div>ul>li{
+    width: 30%;
+    height: 35%;
+    display: inline-block;
+    margin-top: 30px;
+}
+div.digi-plus>div>div>div>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+div.digi-plus>div>div>div>ul>li>a>img{
+    width: 100%;
+    height: 100%;
+    display: block;
+   background-size: cover;}
+
+   div.digi-plus>div>div:nth-of-type(3)>a{
+    width: 100%;
+    height: 35px;
+    display: block;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    border-top-right-radius: 15px;
+   }
+   div.digi-plus>div>div:nth-of-type(3)>p{
+    width: 100%;
+    height: 20px;
+    font-size: 15px;
+    font-family: Iran;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+    top:20px;
+    right: 0px;
+   }
+   div.digi-plus>div>div:nth-of-type(3)>img{
+    width: 100%;
+    height: calc(100% - 60px);
+    position: absolute;
+    bottom: 0px;
+   }
+   div.digi-plus>div>div:nth-of-type(3)>div.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+ border: 1px solid white;
+ position: absolute;
+ top: 60px;
+ right: 30px;
+}
+div.digi-plus>div>div:nth-of-type(3)>div.button>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: black;
+line-height: 30px;
+text-align: center;
+color: white;
+
+}
+div.digi-plus>div>div:nth-of-type(3)>div.button>a>p{
+    width: calc(100% - 40px);
+    font-size: 20px;
+line-height: 30px;
+text-align: center;
+font-family: Iran;
+display: inline-block;
+position: absolute;
+top: -20px;
+right: 5px;
+}
+div.digi-plus>div>div:nth-of-type(3)>div.button>a>span{
+    width: 24px;
+    height: 100%;
+    position: absolute;
+    left: 10px;
+}

@@ -1,0 +1,209 @@
+
+@font-face {
+  font-family: Iran;
+  src: url('../font/fa/IRAN\ Sans\ Regular.ttf');
+}
+@font-face {
+  font-family: Arghavan;
+  src: url('../font/fa/Arghavan.ttf');
+}
+div.amazing{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; 
+    padding:100px;
+    box-sizing: border-box; 
+    position: relative;
+    top:30px;
+}
+div.amazing>div{
+    width: 100%;
+    background-color: #EF3A4F;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    
+  }
+  div.amazing>div>div.amazing-1{
+    width: 80%;
+    background-color: white;
+  margin-right: 230px;}
+  div.amazing>div>div.amazing-1>div.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    background-color: #EF3A4F;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 10px;
+    border-left: 1px solid  #E0E0E6;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide:nth-of-type(13){
+    height: 254px;
+  }
+  .swiper-slide>a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+  .swiper-slide>a>img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .swiper-slide>a>p{
+    width: 90%;
+    text-align: left;
+    font-size: 15px;
+    display: inline-block;
+    color: black;
+    font-family: Iran;
+  }
+  .swiper-slide>a>span:nth-of-type(even){
+    width: 10%;
+    height: 15px;
+    line-height: 6px;
+    display: inline-block;
+    font-size: 10px;
+position: absolute;
+top: 170px;
+left: 8px; 
+background-color: #EF3A4F;
+}
+.swiper-slide>a>span:nth-of-type(odd){
+  width: 10%;
+  height: 15px;
+  line-height: 6px;
+  display: inline-block;
+  font-size: 10px;
+position: absolute;
+top: 170px;
+left: 8px; 
+}
+.swiper-slide>a>p:nth-of-type(2){
+  width: 90%;
+  text-align: left;
+  font-size: 10px;
+  display: inline-block;
+  color: gray;
+  font-family: Iran;
+  text-decoration: line-through;
+}
+.swiper-slide>a>span:nth-of-type(2){
+ width: 20%;
+ height: 15px;
+ line-height: 15px;
+ display: inline-block;
+ font-size: 10px;
+ position: absolute;
+ top: 180px;
+ left: 130px;
+ text-align: center;
+ border-radius: 15px;
+}
+
+
+.swiper-slide:nth-of-type(13)>a{
+  width: 100%;
+padding-top: 110px;}
+.swiper-slide:nth-of-type(13)>a>span{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  color: #EF3A4F;
+  line-height: 70px;
+ text-align: center;
+ font-size: 25px;
+ color: aqua;
+ border: solid 1px aqua;
+display: inline-block;
+position: absolute;
+top:50px;
+left: 50px;
+
+}
+.swiper-slide:nth-of-type(13)>a>p{
+  width: 100%;
+  height: 30px;
+  display: block;
+margin-top: 120px;
+font-size: 15px;
+text-align: center;
+}
+div.amazing>div>div.picture-text{
+  width: 10%;
+  display: inline-block;
+ position: absolute;
+ top: 100px;
+ right: 110px;
+ bottom: 110px;
+ direction: rtl;
+}
+div.amazing>div>div.picture-text>a{
+  text-decoration: none;
+  text-align: center;
+}
+div.amazing>div>div.picture-text>a>img{
+  width: 120px;
+}
+div.amazing>div>div.picture-text>a>p{
+width: 5%;
+font-size: 30px;
+margin-right: 45px;
+line-height: 5px;
+font-family: Arghavan;
+color: white;
+ }
+ div.amazing>div>div.picture-text>a>p:nth-of-type(3){
+  width: 5%;
+  font-size: 30px;
+  margin-right: 50px;
+  line-height: 0px;
+  font-family: Arghavan;
+   }
+
+div.amazing>div>div.picture-text>a>p:nth-of-type(4){
+  width: calc(100% - 55px);
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  font-family: Iran;
+  color: white;
+  text-decoration: none;
+display: inline-block;
+margin-right: 0px;
+margin-top: -40px;
+}
+div.amazing>div>div.picture-text>a>span{
+  width: 15px;
+  height: 25px;
+font-size: 15px;
+display: inline-block;
+color: white;
+}
